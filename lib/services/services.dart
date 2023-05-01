@@ -39,26 +39,3 @@ class ElixirService {
     }
   }
 }
-
-
-
-
-
-
-// class ElixirService {
-//   static const String _baseUrl = 'https://wizard-world-api.herokuapp.com';
-
-//   static Future<List<Map<String, dynamic>>> fetchElixirs(
-//       String wizardId) async {
-//     final response =
-//         await http.get(Uri.parse('$_baseUrl/elixirs?wizardId=$wizardId'));
-//     //await http.get(Uri.parse('$_baseUrl/api/wizards/$wizardId/elixirs'));
-
-//     if (response.statusCode == 200) {
-//       final data = jsonDecode(response.body);
-//       return List<Map<String, dynamic>>.from(data.map((json) => json));
-//     } else {
-//       throw Exception('Failed to fetch elixirs');
-//     }
-//   }
-// }
