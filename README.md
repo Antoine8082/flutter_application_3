@@ -1,5 +1,5 @@
-# flutter_application_3
+# Wizard/elixirs using Flutter
 
-## Wizard/elixirs using Flutter
+## flutter_application v3.
 
 EPSI 2023
