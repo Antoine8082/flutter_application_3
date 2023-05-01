@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/models/models.dart';
 
 class ElixirsPage extends StatelessWidget {
   final List<Map<String, dynamic>> elixirs;
@@ -10,7 +9,7 @@ class ElixirsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Elixir List'),
+        title: const Text('Elixir List'),
       ),
       body: ListView.builder(
         itemCount: elixirs.length,

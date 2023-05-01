@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api, use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/pages/elixirs_page.dart';
 import 'package:flutter_application_3/models/models.dart';
@@ -33,7 +35,7 @@ class _WizardsPageState extends State<WizardsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Wizard List'),
+        title: const Text('Wizard List'),
       ),
       body: FutureBuilder<List<Wizard>>(
         future: _futureWizards,
@@ -60,7 +62,7 @@ class _WizardsPageState extends State<WizardsPage> {
             );
           }
 
-          return Center(
+          return const Center(
             child: CircularProgressIndicator(),
           );
         },

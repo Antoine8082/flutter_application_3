@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_3/pages/wizards_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WizardsPage(),
+      home: const WizardsPage(),
     );
   }
 }
