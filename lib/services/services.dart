@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:flutter_application_3/models.dart';
+import 'package:flutter_application_3/models/models.dart';
 
 class WizardService {
   static const String _baseUrl = 'https://wizard-world-api.herokuapp.com';

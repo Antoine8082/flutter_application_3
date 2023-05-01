@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/elixirs_page.dart';
-import 'package:flutter_application_3/models.dart';
-import 'package:flutter_application_3/services.dart';
+import 'package:flutter_application_3/pages/elixirs_page.dart';
+import 'package:flutter_application_3/models/models.dart';
+import 'package:flutter_application_3/services/services.dart';
 
 class WizardsPage extends StatefulWidget {
   const WizardsPage({Key? key}) : super(key: key);

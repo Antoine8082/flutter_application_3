@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/models.dart';
+import 'package:flutter_application_3/models/models.dart';
 
 class ElixirsPage extends StatelessWidget {
   final List<Map<String, dynamic>> elixirs;
